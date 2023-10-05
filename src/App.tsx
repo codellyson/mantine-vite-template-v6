@@ -1,10 +1,11 @@
+import React from 'react';
 import { ThemeProvider } from './ThemeProvider';
-import { Welcome } from './Welcome/Welcome';
+import { Router } from './Router';
 
 export default function App() {
   return (
     <ThemeProvider>
-      <Welcome />
+     <Router />
     </ThemeProvider>
   );
 }
