@@ -7,7 +7,4 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
 ]);
-export const Router = () => (
-      <RouterProvider router={router} />
-
-  );
+export const Router = () => <RouterProvider router={router} />;
